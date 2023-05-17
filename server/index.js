@@ -75,7 +75,7 @@ app.post("/login", (req, res) => {
         if(result.length > 0){
             res.send(result);
         }else{
-            res.send({message: "Usario o contraseña incorrectos!"});
+            res.send({message: "Usuario o contraseña incorrectos!"});
         }
     })
 })
